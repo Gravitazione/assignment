@@ -40,7 +40,7 @@ const Login = () => {
 
     return (
         <div className="w-[100vw] min-h-[100vh] overflow-x-hidden bg-bgprimary bgImage">
-            <div className='fixed top-4 right-4'>
+            <div className='fixed top-4 right-4 z-10'>
                 <LanguageSelection />
             </div>
             <div className='min-h-[100vh] flex items-center relative 2xl:left-[1100px] xl:left-[660px] left-0 xl:justify-start justify-center'>
